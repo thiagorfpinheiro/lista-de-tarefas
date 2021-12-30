@@ -19,7 +19,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 20px;
     width: 80%;
-    min-height: 350px;
+    min-height: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-top: px;
@@ -30,14 +30,14 @@ body {
 
 #tarefa {
     width: 60%;
-    padding: 8px;
+    padding: 10px;
     border: 0;
     border-radius: 5px;
     box-shadow: 1px 1px 5px black;
 }
 
 #inserir, #limpar {
-    padding: 8px;
+    padding: 10px;
     margin: 20px 15px 20px 15px;
     border-radius: 5px;
     box-shadow: none;
@@ -65,7 +65,7 @@ hr {
     padding: 0;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 790px) {
 
     #container {
         width: 30%;
