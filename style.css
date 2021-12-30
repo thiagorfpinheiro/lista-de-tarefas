@@ -69,6 +69,7 @@ hr {
 
     #container {
         width: 30%;
+        min-height: 300px;
     }
 
     #tarefa {
