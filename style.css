@@ -1,0 +1,63 @@
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #86b8d6;
+    font-size: 1.3rem;
+}
+
+#lista {
+    list-style-type: none;
+    text-align: left;
+}
+
+#container {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 80%;
+    min-height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: px;
+    background-color: white;
+    overflow: auto;
+}
+
+#tarefa {
+    width: 60%;
+    padding: 8px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#inserir, #limpar {
+    padding: 8px;
+    margin: 20px 15px 20px 15px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 0px ;
+}
+
+ul {
+    margin: 0;
+    padding: 15px;
+}
+
+li {
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
