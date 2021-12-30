@@ -25,6 +25,7 @@ body {
     margin-top: px;
     background-color: white;
     overflow: auto;
+    box-shadow: 2px 2px 10px black;
 }
 
 #tarefa {
@@ -32,6 +33,7 @@ body {
     padding: 8px;
     border: 0;
     border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
 }
 
 #inserir, #limpar {
@@ -40,6 +42,7 @@ body {
     border-radius: 5px;
     box-shadow: none;
     border: 0px ;
+    box-shadow: 1px 1px 5px black;
 }
 
 ul {
@@ -60,4 +63,16 @@ li {
 hr {
     margin: 0;
     padding: 0;
+}
+
+@media screen and (min-width: 550px) {
+
+    #container {
+        width: 30%;
+    }
+
+    #tarefa {
+        width: 20%;
+    }
+
 }
